@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const ClothSchema = new mongoose.Schema({
+const ClothesSchema = new mongoose.Schema({
     name : {
         type : String,
         required : true
@@ -27,6 +27,6 @@ const ClothSchema = new mongoose.Schema({
     },
 })
 
-const Cloth = mongoose.model('Cloth',ClothSchema)
+const Clothes = mongoose.model('Clothes',ClothesSchema)
 
-module.exports = Cloth
+module.exports = Clothes
