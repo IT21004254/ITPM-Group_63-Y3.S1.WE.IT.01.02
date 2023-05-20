@@ -114,5 +114,64 @@ export default {
         { link: "https://www.google.com", icon: <LanguageIcon /> },
       ],
     },
+    {
+      tag: "Notebooks",
+      image:
+        "https://www.promateworld.com/storage/product-images/bpfg0230-1-1.png",
+      images: [
+        "https://www.promateworld.com/storage/product-images/bpfg0230-1-1.png",
+        "https://www.promateworld.com/storage/product-images/bpfg0230-2-1.png",
+        "https://www.promateworld.com/storage/product-images/bpfg0230-1.png",
+        "https://www.promateworld.com/storage/product-images/bpfg0230-3.png",
+      ],
+      title: "Single Ruled Book",
+      caption: "ProMate CR 200Pgs Single Ruled Book",
+      description:
+        "Printed on premium quality 70gsm Indonesian cream paper, these books are presented in an array of contemporary designs of cover arts, shielded with UV lamination to support endurance over time and usage. The corners are rounded off to add elegance. The off-white cream paper makes the impact and strain on the eyes from the reflection of light above minimal and thus promotes persistent reference without strain to eyes. Feint offset ruling makes the written notes stand out clearer and in much prominent terms over the conventional striking-blue ruling",
+      links: [
+        { link: "https://www.google.com", icon: <YouTubeIcon /> },
+        { link: "https://www.google.com", icon: <GitHubIcon /> },
+        { link: "https://www.google.com", icon: <LanguageIcon /> },
+      ],
+    },
+    {
+      tag: "Notebooks",
+      image:
+        "https://www.exercisebooksdirect.co.uk/-833701894/Handler/Picture/PI/T/0005636_a4-416mm-ruled-80-page-red-handwriting-book-pack-5.jpeg",
+      images: [
+        "https://www.exercisebooksdirect.co.uk/-833701894/Handler/Picture/PI/T/0005636_a4-416mm-ruled-80-page-red-handwriting-book-pack-5.jpeg",
+        "https://www.exercisebooksdirect.co.uk/-190064579/Handler/Picture/PI/T/0005637_a4-416mm-ruled-80-page-red-handwriting-book-pack-5.jpeg",
+        "https://www.exercisebooksdirect.co.uk/-202308143/Handler/Picture/PI/T/0005638_a4-416mm-ruled-80-page-red-handwriting-book-pack-5.jpeg",
+      ],
+      title: "A4 4/16mm Ruled Writing Book",
+      caption: "A4 4/16mm Ruled 80 Page Handwriting Book",
+      description:
+        "80 pages. 300gsm card cover. 3 staples along the spine for extra strength.High white 80gsm Optik® Paper. 4 subject lines on the front cover",
+      links: [
+        { link: "https://www.google.com", icon: <YouTubeIcon /> },
+        { link: "https://www.google.com", icon: <GitHubIcon /> },
+        { link: "https://www.google.com", icon: <LanguageIcon /> },
+      ],
+    },
+    {
+      tag: "Notebooks",
+      image:
+        "https://www.jungle.lk/wp-content/uploads/2018/06/Atlas-Drawing-Book-Snow.jpg",
+      images: [
+        "https://www.jungle.lk/wp-content/uploads/2018/06/Atlas-Drawing-Book-Snow.jpg",
+        "https://www.jungle.lk/wp-content/uploads/2018/06/Atlas-Drawing-Book-Mushroom.jpg",
+        "https://www.jungle.lk/wp-content/uploads/2018/06/Atlas-Drawing-Book-Lion.jpg",
+        "https://www.jungle.lk/wp-content/uploads/2018/06/Atlas-Drawing-Book-Birds.jpg",
+      ],
+      title: "Drawing Book",
+      caption: "Atlas Drawing Book",
+      description:
+        "80 pages.  A book for practice in drawing, made of leaves of drawing-paper. 3 staples along the spine for extra strength.",
+      links: [
+        { link: "https://www.google.com", icon: <YouTubeIcon /> },
+        { link: "https://www.google.com", icon: <GitHubIcon /> },
+        { link: "https://www.google.com", icon: <LanguageIcon /> },
+      ],
+    },
   ],
 };

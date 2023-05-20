@@ -23,6 +23,7 @@ import stationeryList from "../../utils/stationeryList";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import Pen1 from "../../assets/pen1.jpg";
 import AddStationery from "./AddStationery";
+import StationeryListView from "../../components/admin/StationeryListView";
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,6 +31,7 @@ import {
   Route,
   useNavigate,
 } from "react-router-dom";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Stationery = () => {
   const [tabValue, setTabValue] = useState("All");
@@ -40,6 +42,10 @@ const Stationery = () => {
 
   const navigateToSummary = () => {
     navigate("/addStationery");
+  };
+
+  const navigateToList = () => {
+    navigate("/adminstationerylist");
   };
 
   const handleClickOpen = () => {
@@ -53,6 +59,7 @@ const Stationery = () => {
 
   return (
     <>
+      <Navbar />
       <Grid container spacing={1} className="section pb_45 pt_45">
         {/* Title */}
         <Grid item className="section_title mb_20">
@@ -186,13 +193,51 @@ const Stationery = () => {
                   <DialogContentText>
                     {stationeryDialog.title}
                   </DialogContentText>
-                  <TextField
-                    autoFocus
-                    margin="dense"
-                    id="name"
-                    label="Quantity"
-                    type="number"
-                  />
+                  <DialogContentText>
+                    <TextField
+                      autoFocus
+                      margin="dense"
+                      id="name"
+                      label="Quantity"
+                      type="number"
+                    />
+                  </DialogContentText>
+                  <DialogContentText>
+                    <TextField
+                      autoFocus
+                      margin="dense"
+                      id="name"
+                      label="Name"
+                      type="text"
+                    />
+                  </DialogContentText>
+                  <DialogContentText>
+                    <TextField
+                      autoFocus
+                      margin="dense"
+                      id="name"
+                      label="Contact Number"
+                      type="text"
+                    />
+                  </DialogContentText>
+                  <DialogContentText>
+                    <TextField
+                      autoFocus
+                      margin="dense"
+                      id="name"
+                      label="Email Address"
+                      type="email"
+                    />
+                  </DialogContentText>
+                  <DialogContentText>
+                    <TextField
+                      autoFocus
+                      margin="dense"
+                      id="name"
+                      label="Address"
+                      type="text"
+                    />
+                  </DialogContentText>
                 </DialogContent>
                 <DialogActions>
                   <Button
